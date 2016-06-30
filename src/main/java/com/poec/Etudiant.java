@@ -46,7 +46,7 @@ public class Etudiant {
     }
 
     public void setAdresse(String adresse) {
-        this.adresse = adress;
+        this.adresse = adresse;
     }
 
     public int getAge() {
