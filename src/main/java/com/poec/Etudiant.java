@@ -8,11 +8,15 @@ public class Etudiant {
 
     private String adresse;
 
-    private String anneeNaissance;
+    private int anneeNaissance;
+
+    public int annee = 2016;
+
+    private int age;
 
 
 
-    public Etudiant(String nom, String prenom, String adresse, String anneeNaissance) {
+    public Etudiant(String nom, String prenom, String adresse, int anneeNaissance) {
         this.nom = nom;
         this.prenom = prenom;
         this.adresse = adresse;
@@ -42,4 +46,11 @@ public class Etudiant {
     public void setAdresse(String adresse) {
         this.adresse = adresse;
     }
+
+    public int getAge() {
+        age = annee-anneeNaissance;
+        return age;
+    }
+
+
 }
