@@ -8,10 +8,15 @@ public class Etudiant {
 
     private String adresse;
 
-    public Etudiant(String nom, String prenom, String adresse) {
+    private String anneeNaissance;
+
+
+
+    public Etudiant(String nom, String prenom, String adresse, String anneeNaissance) {
         this.nom = nom;
         this.prenom = prenom;
         this.adresse = adresse;
+        this.anneeNaissance = anneeNaissance;
     }
 
     public String getNom() {
