@@ -21,6 +21,8 @@ public class Etudiant {
         this.prenom = prenom;
         this.adresse = adresse;
         this.anneeNaissance = anneeNaissance;
+
+        /*test commit*/
     }
 
     public String getNom() {
