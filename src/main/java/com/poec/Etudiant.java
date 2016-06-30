@@ -10,7 +10,7 @@ public class Etudiant {
 
     private int anneeNaissance;
 
-    public int annee = 2017;
+    private int annee = 2016;
 
     private int age;
 
